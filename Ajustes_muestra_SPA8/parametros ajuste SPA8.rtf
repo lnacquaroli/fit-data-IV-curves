@@ -1,0 +1,130 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red34\green139\blue34;\red46\green111\blue253;\red0\green68\blue254;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh7740\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs22 \cf0 Ajustes de la muestras Sp A8 SP macro VIII.\
+\
+Inicio con los diodos enfrentados que que tenia para SPD1.\
+agrego el diodo en paralelo.\
+archivos\
+\
+Y ajusto la curva a oscuras\
+\
+\
+Iv2fa\
+ajusteiv12fa\
+merito12fa\
+\
+Esto para la muestra a oscuras. Todos los parametros libres. \
+Se inicia con estas semillas para el ajuste.\
+\pard\pardeftab720
+\cf2 x0 = [I01,I02,I03,rs,n1,n2,rp,]\cf0 \
+x0 = [3.57E-7,3.86E-6,3.57E-6,47.3,2.1,3.16,1.07E5];\
+\
+Y se obtiene un ajuste con un error relativo del 6.9E-5.\
+con estos valores\
+\
+\cf3 x0 = [I01,I02,I03,rs,n1,n2,rp,]\cf0 \
+x0 = [3.5694E-06,1.6050E-05,6.7819E-09,40.0188,3.41,10.673,1.8E5];\
+\
+\
+---------------------------------------------------------------------------\
+Despu\'e9s de ajustar la muestra a oscuras, realizo el ajuste para las muestras que se iluminaron con diferentes OD.\
+3 OD\
+Con los archivos\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 Iv2fb\
+ajusteiv12fb\
+merito12fb\
+\
+\pard\pardeftab720
+\cf0 Esto se hace con los parametros obtenidos a trav\'e9s del ajuste a oscuras.\
+la semilla es:\
+\
+\pard\pardeftab720
+
+\f1\fs20 \cf2 % x0 = [Il1,Il2]
+\fs24 \cf0 \
+\pard\pardeftab720
+
+\fs20 \cf0 x0 = [2E-5,15E-9];
+\fs24 \
+
+\fs20 I01= 3.5694E-06;
+\fs24 \
+
+\fs20 n1=3.41;
+\fs24 \
+
+\fs20 I02=1.6050E-05;
+\fs24 \
+
+\fs20 rp=1.8e5;
+\fs24 \
+
+\fs20 I03=6.7819E-09;
+\fs24 \
+
+\fs20 rs=40.0188;
+\fs24 \
+
+\fs20 n2=1.5;\
+\
+Se obtiene un error de 7.9 e-5
+\fs24 \
+\pard\pardeftab720
+
+\f0\fs22 \cf0 \
+\pard\pardeftab720
+
+\f1\fs20 \cf4 % x0 = [Il1,Il2]
+\fs24 \cf0 \
+\pard\pardeftab720
+
+\fs20 \cf0 x0 = [2E-8,1.5E-7];\
+\
+\pard\pardeftab720
+
+\f0\fs22 \cf0 ---------------------------------------------------------------------------\
+\pard\pardeftab720
+
+\f1\fs20 \cf0 2 OD\
+Se obtiene un erro3 de 7.9 e-4
+\fs24 \
+\pard\pardeftab720
+
+\f0\fs22 \cf0 \
+\pard\pardeftab720
+
+\f1\fs20 \cf4 % x0 = [Il1,Il2]
+\fs24 \cf0 \
+\pard\pardeftab720
+
+\fs20 \cf0 x0 = [3.84E-5,1.5E-7];\
+\
+\pard\pardeftab720
+
+\f0\fs22 \cf0 ---------------------------------------------------------------------------\
+\pard\pardeftab720
+
+\f1\fs20 \cf0 1 OD\
+Se obtiene un error de
+\f0\fs22 \
+\pard\pardeftab720
+
+\f1\fs20 \cf4 % x0 = [Il1,Il2]
+\fs24 \cf0 \
+\pard\pardeftab720
+
+\fs20 \cf0 x0 = [3.84E-5,1.5E-7];
+\fs24 \
+\pard\pardeftab720
+
+\f0\fs22 \cf0 \
+\
+\
+}
